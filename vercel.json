@@ -1,4 +1,6 @@
 {
-  "buildCommand": "npm run build",
-  "installCommand": "npm install"
+  "framework": null,
+  "installCommand": "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm ci --no-audit --no-fund",
+  "buildCommand": "node scripts/with-app-env.mjs vite build",
+  "regions": ["sin1"]
 }

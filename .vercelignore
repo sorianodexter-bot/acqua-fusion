@@ -1,0 +1,9 @@
+docs
+.github
+*.md
+**/*.test.mjs
+**/*.test.ts
+**/*.test.tsx
+scripts/*.py
+public/images/raw
+*.zip
